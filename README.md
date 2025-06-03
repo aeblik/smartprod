@@ -14,9 +14,9 @@ Git
 
 ## Getting Started
 1. Clone the Repository
-'git clone https://github.com/aeblik/smartprod.git'
+`git clone https://github.com/aeblik/smartprod.git`
 2. Build and run containers
-'docker-compose up --build'
+`docker-compose up --build`
 3. Access Services
 Flask App: http://localhost:5000
 MinIO Console: http://localhost:9001
@@ -30,4 +30,4 @@ List Files: Uploaded Files are listed and can also be axxessed through the MinIO
 Donwload Files: Click on a File in the MinIO console
 
 ## Notes
-Adjust credentials and ports in '.env' if needed
+Adjust credentials and ports in `.env` if needed
