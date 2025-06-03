@@ -3,8 +3,11 @@ This technical demonstration showcases the integration of cloud object storage (
 
 ## Features
 Flask API: Handles file uploads and metadata management
+
 MinIO: S3-compatible object storage for storing files
+
 PostgreSQL: Stores file metadata
+
 Presigned URLs: Provides secure access to stored files
 
 ## Prerequisites
@@ -26,7 +29,9 @@ PostgreSQL: runs on port 5432 (accessible with "postgres" user and "password")
 
 ## Usage
 Upload a File: Use the web interface to upload files
+
 List Files: Uploaded Files are listed and can also be axxessed through the MinIO console
+
 Donwload Files: Click on a File in the MinIO console
 
 ## Notes
